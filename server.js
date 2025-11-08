@@ -13,12 +13,12 @@ app.use(
     origin: [
       "http://localhost:8080",
       "http://localhost:5173",
-      "https://rj-international-traders-xx12.vercel.app/" // your deployed frontend
+      "https://rj-international-traders-y25x.vercel.app" // your deployed frontend
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
-);
+);https:
 
 app.use(express.json());
 
